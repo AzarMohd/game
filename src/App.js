@@ -8,8 +8,8 @@ import Notification from "./components/Notification";
 import Popup from "./components/Popup";
 import { showNotification as show } from './components/helpers/helper';
 
-const words = ['manchester city','liverpool','chelsea','arsenal','tottenham','manchester united','west-ham','wolves','aston villa',
-'leicester city','southampton','crystal-palace','brighton','newcastle','brentford','leeds-united','everton','watford','burnley','norwich-city'];
+const words = ['manchestercity','liverpool','chelsea','arsenal','tottenham','manchester united','westham','wolves','astonvilla',
+'leicestercity','southampton','crystalpalace','brighton','newcastle','brentford','leedsunited','everton','watford','burnley','norwichcity'];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
